@@ -61,7 +61,6 @@ object MarkdownChat : MeowddingLogger by SkyOcean.featureLogger() {
         }
     }
 
-
     fun FormattedCharSequence.toComponent(): Component {
         val result: MutableComponent = Text.of()
         var currentStyle: Style? = null
